@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 800x;
+   height: 216px;
+   margin-top: -108px; /* Half the height */
+   margin-left: -400px; /* Half the width */
+}

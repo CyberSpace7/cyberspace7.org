@@ -1,0 +1,9 @@
+.scroll-content {position:absolute;top:0;left:0}
+.slider-wrap{position:absolute;right:0;bottom:0;margin-right: 0px;width:15px;}
+.slider-vertical{position:relative;height:100%}
+.ui-slider-handle{width:15px;height:10px;margin:0 auto;background-color:lightgrey;display:block;position:absolute}
+.ui-slider-handle img{border:none}
+.scrollbar-top{position:absolute;top:0;}
+.scrollbar-bottom{position:absolute;bottom:0;}
+.scrollbar-grip{position:absolute;top:50%;margin-top:-6px;}
+.ui-slider-range{position:absolute;width:100%;}

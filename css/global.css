@@ -1,0 +1,122 @@
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	z-index:100;
+	width:500px;
+	height:300px;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:500px;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:500px;
+	height:300px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:999;
+}
+
+#slides .next {
+	left:476px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	position: relative;
+	display: block;
+	z-index:500;
+	height:50px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:500px;
+	color:#fff;
+	border-top:1px solid #000;
+	bottom: 55px !important;
+	padding-left: 4px;
+	text-shadow:none;
+	overflow: hidden;
+
+}
+
+.caption p {
+	font-family: 'Jura', sans-serif;
+	vertical-align:top;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 11px;
+	margin-top: 3px;
+	max-width: 496px;
+}
+
+#center {
+	padding-left: 150px;
+	padding-top: 50px;
+}

@@ -1,0 +1,28 @@
+.scroll-pane .ui-state-default,
+.scroll-pane .ui-widget-content .ui-state-default,
+.scroll-pane .ui-widget-header .ui-state-default {
+    border: none;
+    background: #dedede none;
+}
+.scroll-pane .ui-state-hover,
+.scroll-pane .ui-widget-content .ui-state-hover,
+.scroll-pane .ui-widget-header .ui-state-hover,
+.scroll-pane .ui-state-focus,
+.scroll-pane .ui-widget-content .ui-state-focus,
+.scroll-pane .ui-widget-header .ui-state-focus {
+    border: none;
+    background: #E0E0E0 !important;
+    cursor:  pointer;
+}
+.scroll-pane .ui-state-active,
+.scroll-pane .ui-widget-content .ui-state-active,
+.scroll-pane .ui-widget-header .ui-state-active {
+    border: none;
+    background: #fff none;
+}
+
+.scroll-bar-wrap-vertical {
+
+}
+
+.scroll-bar-wrap-vertical .ui-slider-handle { width: 10px; background: #969696 !important; margin-bottom: 0px; }

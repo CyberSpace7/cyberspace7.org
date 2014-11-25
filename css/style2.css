@@ -1,0 +1,254 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+
+#wrapper {
+  /*display: none;*/
+  position: relative;
+  width: 1024px;
+  height: 600px;
+  margin: auto;
+  padding:0 0 0 0;
+  left:50%;
+  top:50%;
+  margin-left:-512px;
+  margin-top:-300px;
+  border: 1px solid #ccc;
+}
+
+#container {
+  position:absolute;
+  display: block;
+  top:50%;
+  background:url(../img/gradient.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -300px;
+  text-align: left;
+  width:1024px;
+  height:600px;
+  display: none;
+}
+
+#overlay {
+  position:absolute;
+  top:50%;
+  background:url(../img/overlay.png);
+  margin-top: -300px;
+  width:1024px;
+  height:600px;
+}
+p {
+   font-family: 'Jura', sans-serif;
+}
+
+h1 {
+  display: inline; 
+  font-family: 'Jura', sans-serif;
+  margin:0px,0px,0px,0px;
+} 
+
+h2 {
+  display: inline; 
+  font-family: 'Jura', sans-serif;
+  margin:0px,0px,0px,0px;
+}
+
+h3 {
+  display: inline; 
+  font-family: 'Jura', sans-serif;
+  margin:0px,0px,0px,0px;
+}
+
+#logo-container{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  float: right;
+}
+
+#logo{
+  position: relative;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  float: right;
+}
+
+.slash {
+  display: block;
+  font-family: 'Jura', sans-serif;
+  color: #ccc;
+  font-size: 44px;
+  line-height: 0%;
+  float: right;
+
+}
+
+#logotext {
+  position: absolute;
+  margin-bottom:14px;
+}
+
+#logo h1 {
+  font-family: 'Jura', sans-serif;
+  color: #ccc;
+  font-size: 46px;
+  line-height: 30px;
+  margin: 0;
+  letter-spacing: -3px;
+  font-weight: 600;
+  padding: 0 0 0 0;
+  display: block;
+}
+
+#logo h2 {
+  font-family: 'Jura', sans-serif;
+  color: #ccc;
+  font-size: 22px;
+  line-height: 0%;
+  margin-left: 15px;
+  margin-top: -5px;
+  letter-spacing: 10px;
+  padding: 0 0 0 0;
+}
+
+#arbor {
+  position:absolute;
+  width:400px;
+  height:400px;
+  right: 0px;
+  top: 0px;
+  float: right;
+  display: none;
+}
+
+#sitemap {
+  /*border: 1px solid #ccc;*/
+  float: right;
+/*  margin:8px 0 0 0;*/
+}
+
+#sitemap.linkable {
+  cursor:pointer;
+}
+
+
+
+.window {
+  position:relative;
+  width: 800px;
+  height: 600px;
+  /*border:1px solid #ccc;*/
+  color: #ccc;
+ /* margin-bottom:226px;*/
+  text-align: bottom;
+  display: all;
+}
+.textwindow {
+  padding: 4px;
+  position:absolute;
+  overflow: hidden;
+  background-color: #2d2d2d;
+  width: 800px;
+  height: 175px;
+  bottom: 0;
+  margin-bottom:6px;
+  margin-left:6px;
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  <!--[if IE]>
+You are using IE (IE5+ and above).
+<![endif]-->
+}
+
+.textwindow-large {
+  padding: 4px;
+  position:absolute;
+  overflow: hidden;
+  background-color: #2d2d2d;
+  width: 800px;
+  height: 300px;
+  bottom: 0;
+  margin-bottom:6px;
+  margin-left:6px;
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  <!--[if IE]>
+You are using IE (IE5+ and above).
+<![endif]-->
+}
+
+.textbody {
+  width: 795px;
+  height: 140px;
+  position:absolute;
+  overflow: hidden;
+  border: 1px solid #4B4B4A;
+}
+
+.textbody-large {
+  width: 795px;
+  height: 260px;
+  position:absolute;
+  overflow: hidden;
+  border: 1px solid #4B4B4A;
+}
+
+.textbody p {
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 750px;
+}
+
+.window-centered {
+  margin-left: 150px;
+  margin-top: 75px;
+}
+
+.loading {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+}
+
+.hidden {
+  display: none;
+}
+
+.content {
+  display: none;
+}
+
+.window {
+  display: none;
+}
+
+#introduction {
+  height: 300px;
+  width: 460px;
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+}
+
+#introduction h2{
+  font-size: 50px;
+}
+
+#introduction h3{
+  font-size: 22px;
+}

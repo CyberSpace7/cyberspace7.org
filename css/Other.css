@@ -1,0 +1,9 @@
+#right-container {
+    display:none;
+}
+
+#infovis {
+    width:300px;
+    
+    border: 1px solid #ccc;
+}
